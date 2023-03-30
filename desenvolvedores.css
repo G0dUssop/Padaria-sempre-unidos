@@ -1,0 +1,147 @@
+*{margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+    body {
+        background: #F7E3B2;
+    }
+
+    .home {
+        position: absolute;
+        width: 60px;
+        height: 27px;
+        left: 1553px;
+        top: 21px;
+        
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        
+        color: #FFFFFF;
+    }
+
+    @font-face {
+        font-family: Stardust Adventure ;
+        src: url(Stardust\ Adventure.ttf)format('TrueType');
+    }
+
+    .inicio {
+        color: #FFFFFF;
+        text-decoration:none
+    }
+
+    .retangulo1 {
+        position: absolute;
+width: 1920px;
+height: 76px;
+left: 0px;
+top: 0px;
+
+background: #58342D;
+    }
+
+    h1 {
+        position: absolute;
+width: 266px;
+height: 44px;
+left: 788px;
+top: 0px;
+
+font-family: 'Stardust Adventure';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 64px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .logo1 {
+        position: absolute;
+width: 36px;
+height: 36px;
+left: 1510px;
+top: 14px;
+
+
+fill: #FFFFFF;
+    }
+
+    .texto1 {
+        position: absolute;
+width: 843px;
+height: 372px;
+left: 95px;
+top: 181px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+text-align: justify;
+
+color: #A4350E;
+    }
+
+    .retangulo2 {
+        position: absolute;
+width: 760px;
+height: 550px;
+left: 1097px;
+top: 88px;
+
+background: #58342D;
+border-radius: 54px;
+    }
+
+    .texto2 {
+        position: absolute;
+width: 555px;
+height: 160px;
+left: 1233px;
+top: 107px;
+
+font-family: 'Stardust Adventure';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 96px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .texto3 {
+        position: absolute;
+width: 623px;
+height: 428px;
+left: 1165px;
+top: 265px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 78px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+   .logo2 {
+    position: absolute;
+width: 303px;
+height: 320px;
+left: 788px;
+top: 837px;
+opacity: 0.5;
+
+background: url('Sempre unidos (1).png');
+   }

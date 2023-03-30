@@ -1,0 +1,633 @@
+*{margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+    body {
+        background: #F7E3B2;
+    }
+
+    .inicio {
+        color: #FFFFFF;
+        text-decoration:none
+    }
+
+    .retangulo1 {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 1920px;
+        height: 61px;
+        left: 0px;
+        top: 0px;
+        
+        background: #57342D;
+        mix-blend-mode: normal;
+    }
+
+    @font-face {
+        font-family: Stardust Adventure ;
+        src: url(Stardust\ Adventure.ttf)format('TrueType');
+    }
+
+    h1 {
+        position: absolute;
+width: 768px;
+height: 28px;
+left: 719px;
+top: 0px;
+
+font-family: 'Stardust Adventure';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 64px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .home {
+        position: absolute;
+width: 60px;
+height: 27px;
+left: 1553px;
+top: 21px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+    }
+
+    .logo1 {
+        position: absolute;
+width: 36px;
+height: 36px;
+left: 1510px;
+top: 14px;
+
+
+fill: #FFFFFF;
+    } 
+
+    .retangulo2 {
+        position: absolute;
+width: 641px;
+height: 384px;
+left: 116px;
+top: 137px;
+
+background: #58342D;
+border-radius: 54px;
+    }
+
+    .cafe1 {
+        position: absolute;
+width: 598px;
+height: 332px;
+left: 137px;
+top: 162px;
+
+background: url("8_cappuccino.jpg");
+border-radius: 38px;
+    }
+    .retangulo3 {
+        
+position: absolute;
+width: 665px;
+height: 434px;
+left: 107px;
+top: 581px;
+
+background: #58342D;
+border-radius: 54px;
+    }
+
+    .imagem2 {
+        position: absolute;
+width: 620px;
+height: 395px;
+left: 130px;
+top: 600px;
+
+background: url("8_cappuccino.jpg");
+border-radius: 38px;
+    }
+
+    .retangulo4 {
+        position: absolute;
+width: 571px;
+height: 839px;
+left: 835px;
+top: 162px;
+
+background: #58342D;
+border-radius: 24px;
+    }
+
+    .cafe {
+        position: absolute;
+width: 550px;
+height: 29px;
+left: 847px;
+top: 213px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçoc {
+        position: absolute;
+        width: 550px;
+        height: 29px;
+        left: 957px;
+        top: 222px;
+        
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+        
+        color: #FFFFFF;
+    }
+
+    .cafep {
+        position: absolute;
+width: 731px;
+height: 33px;
+left: 847px;
+top: 272px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçocp {
+        position: absolute;
+width: 731px;
+height: 33px;
+left: 984px;
+top: 282px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .chocolate {
+        
+position: absolute;
+width: 765px;
+height: 47px;
+left: 848px;
+top: 327px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçoch {
+        position: absolute;
+width: 765px;
+height: 47px;
+left: 1058px;
+top: 335px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .cafel {
+        position: absolute;
+width: 653px;
+height: 34px;
+left: 847px;
+top: 388px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçocl {
+        position: absolute;
+width: 653px;
+height: 34px;
+left: 1020px;
+top: 397px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+    
+    .refri {
+        position: absolute;
+width: 537px;
+height: 29px;
+left: 847px;
+top: 446px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçor {
+        position: absolute;
+width: 537px;
+height: 29px;
+left: 1048px;
+top: 454px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .agua {
+        position: absolute;
+width: 533px;
+height: 29px;
+left: 847px;
+top: 505px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçoa {
+        position: absolute;
+width: 533px;
+height: 29px;
+left: 908px;
+top: 513px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .suco {
+        position: absolute;
+width: 212px;
+height: 29px;
+left: 1063px;
+top: 564px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .ml {
+
+        position: absolute;
+        width: 212px;
+        height: 29px;
+        left: 1135px;
+        top: 571px;
+        
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+        
+        color: #FFFFFF;
+    }
+
+    .sucoc {
+        position: absolute;
+width: 686px;
+height: 55px;
+left: 848px;
+top: 629px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preços {
+        position: absolute;
+width: 686px;
+height: 55px;
+left: 1002px;
+top: 629px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .sucol {
+        
+position: absolute;
+width: 673px;
+height: 41px;
+left: 848px;
+top: 688px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçol {
+        position: absolute;
+width: 673px;
+height: 41px;
+left: 1036px;
+top: 690px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .sucoli {
+        position: absolute;
+width: 593px;
+height: 29px;
+left: 848px;
+top: 747px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçoli {
+        position: absolute;
+width: 593px;
+height: 29px;
+left: 1019px;
+top: 747px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .sucom {
+        position: absolute;
+width: 673px;
+height: 34px;
+left: 848px;
+top: 806px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçom {
+        position: absolute;
+width: 673px;
+height: 34px;
+left: 1060px;
+top: 808px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .sucoa {
+        
+position: absolute;
+width: 538px;
+height: 29px;
+left: 848px;
+top: 865px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçoac {
+        position: absolute;
+width: 538px;
+height: 29px;
+left: 1040px;
+top: 865px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .sucoma {
+        position: absolute;
+width: 687px;
+height: 38px;
+left: 847px;
+top: 926px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçoma {
+        position: absolute;
+width: 687px;
+height: 38px;
+left: 1065px;
+top: 929px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .seta1 {
+        box-sizing: border-box;
+
+position: absolute;
+width: 287.71px;
+height: 190px;
+left: 1543.08px;
+top: 247px;
+
+background: url("kisspng-portable-network-graphics-scalable-vector-graphics-flecha-tumblr-png-edits-portadas-blanco-rayas-5ba5348d218f96.png");
+border: 1px solid #F8E2B1;
+border-radius: 58px;
+transform: rotate(42.25deg);
+    }
+
+    .texto1 {
+        position: absolute;
+width: 319px;
+height: 300px;
+left: 1481px;
+top: 529px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+text-align: justify;
+
+color: #A4350E;
+    }
+
+   .logo {
+    position: absolute;
+width: 303px;
+height: 300px;
+left: 1502px;
+top: 802px;
+opacity: 0.5;
+
+background: url('Sempre unidos (1).png');
+   }

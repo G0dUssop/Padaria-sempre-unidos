@@ -1,0 +1,320 @@
+* {
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+ 
+    body {
+    background: #F7E3B2;
+
+  }  
+    
+.titulo{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1920px;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    
+    background: #57342D;
+    mix-blend-mode: normal;
+    
+}    
+
+h1 {
+    position: absolute;
+    width: 600px;
+    height: 59px;
+    left: 100px;
+    top: -4px;
+    color:#FFFFFF; 
+   
+    font-family: Stardust Adventure ;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+@font-face {
+    font-family: Stardust Adventure ;
+    src: url(Stardust\ Adventure.ttf)format('TrueType');
+}
+
+.bebida {
+    position: absolute;
+width: 155px;
+height: 23px;
+left: 780px;
+top: 21px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.cafe {
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 733px;
+top: 10px;
+
+fill: #FFFFFF;
+}
+
+.doce {
+    position: absolute;
+width: 155px;
+height: 23px;
+left: 981px;
+top: 21px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+}
+
+.Donuts {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 940px;
+    top: 13px;
+fill: #FFFFFF;
+
+background: #57342D;
+
+}
+
+.salgado {
+    position: absolute;
+    width: 179px;
+    height: 22px;
+    left: 1243px;
+    top: 20px;
+    
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+    
+
+}
+
+.Pão {
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 1205px;
+top: 13px;
+
+    
+fill: #FFFFFF;
+
+
+}
+
+.desenvolvedores {
+  position: absolute;
+width: 225px;
+height: 20px;
+left: 1528px;
+top: 20px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+  
+}
+
+.desenvolvedor {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1485px;
+    top: 13px;
+
+    fill: #FFFFFF; 
+}
+
+.sobre {
+    position: absolute;
+width: 600px;
+height: 70px;
+left: 230px;
+top: 71px;
+
+font-family: 'Stardust Adventure';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 96px;
+
+color: #A4350E;
+}
+
+.teste {
+color: #FFFFFF;
+text-decoration:none
+}
+
+.sobrenos {
+    position: absolute;
+width: 413px;
+height: 163px;
+left: 178px;
+top: 178px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #A4350E;
+
+}
+
+.oi {
+    position: absolute;
+width: 568px;
+height: 651px;
+left: 82px;
+top: 341px;
+
+background: #58342D;
+border-radius: 32px;
+}
+
+.pao {
+    position: absolute;
+width: 532.88px;
+height: 303.02px;
+left: 99.27px;
+top: 358px;
+
+background: url("818776-download-bakery-wallpapers-2560x1600.jpg");
+
+border-radius: 39px;
+transform: rotate(0.05deg);
+}
+
+.pao2 {
+    position: absolute;
+width: 533px;
+height: 296px;
+left: 100px;
+top: 678px;
+
+background: url("818747-bakery-wallpapers-1920x1080-for-ipad-2.jpg");
+border-radius: 47px;
+}
+
+.retangulo1 {
+    position: absolute;
+width: 611px;
+height: 358px;
+left: 1119px;
+top: 106px;
+
+background: #58342D;
+border-radius: 38px;
+}
+
+.pao3 {
+    position: absolute;
+width: 566px;
+height: 326px;
+left: 1140px;
+top: 123px;
+
+background: url("333583.jpg");
+border-radius: 37px;
+}
+
+
+
+.seta {
+    box-sizing: border-box;
+
+position: absolute;
+width: 264.67px;
+height: 200px;
+left: 862.78px;
+top: 530px;
+
+background: url("kisspng-portable-network-graphics-scalable-vector-graphics-flecha-tumblr-png-edits-portadas-blanco-rayas-5ba5348d218f96.png");
+border: 1px solid #F8E2B1;
+border-radius: 58px;
+transform: rotate(14.69deg);
+}
+
+.logo {
+    position: absolute;
+width: 303px;
+height: 320px;
+left: 837px;
+top: 811px;
+opacity: 0.5;
+
+background: url('Sempre unidos (1).png');
+}
+
+.textinho {
+    position: absolute;
+width: 451px;
+height: 255px;
+left: 1300px;
+top: 540px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+text-align: justify;
+
+color: #A4350E;
+
+}
+
+.salgado2 {
+        color: #FFFFFF;
+        text-decoration:none
+    
+}
+
+.bebida1 {
+    color: #FFFFFF;
+    text-decoration:none
+
+}
+
+.desenvolvedor1 {
+    color: #FFFFFF;
+    text-decoration:none
+}

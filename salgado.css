@@ -1,0 +1,671 @@
+*{margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    body {
+        background: #F7E3B2;
+    }
+
+    .retangulo1 {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 1920px;
+        height: 61px;
+        left: 0px;
+        top: 0px;
+        
+        background: #57342D;
+        mix-blend-mode: normal;
+        
+    }
+
+    h1 {
+        position: absolute;
+width: 768px;
+height: 28px;
+left: 719px;
+top: 0px;
+
+font-family: 'Stardust Adventure';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 64px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .home {
+        position: absolute;
+width: 60px;
+height: 27px;
+left: 1553px;
+top: 21px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+    } 
+
+    .inicio {
+        color: #FFFFFF;
+        text-decoration:none
+    }
+
+    @font-face {
+        font-family: Stardust Adventure ;
+        src: url("Stardust\ Adventure.ttf")format('TrueType');
+    }
+
+    .logo1 {
+        position: absolute;
+width: 36px;
+height: 36px;
+left: 1510px;
+top: 14px;
+
+
+fill: #FFFFFF;
+    }
+
+    .texto1 {
+        position: absolute;
+width: 476px;
+height: 423px;
+left: 50px;
+top: 147px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+text-align: justify;
+
+color: #A4350E;
+    }
+
+  .seta {
+    box-sizing: border-box;
+
+position: absolute;
+width: 287.71px;
+height: 171.16px;
+left: 131px;
+top: 621px;
+
+background: url("kisspng-portable-network-graphics-scalable-vector-graphics-flecha-tumblr-png-edits-portadas-blanco-rayas-5ba5348d218f96.3865073615375535491375.png");
+border: 1px solid #F8E2B1;
+border-radius: 58px;
+transform: rotate(-134.9deg);
+  }
+
+    .logo {
+        position: absolute;
+        width: 303px;
+        height: 337px;
+        left: 151px;
+        top: 831px;
+        opacity: 0.5;
+        
+        
+        background: url("Sempre\ unidos\ \(1\).png");
+    }
+
+    .retangulo2 {
+        
+position: absolute;
+width: 650px;
+height: 394px;
+left: 560px;
+top: 117px;
+
+background: #58342D;
+border-radius: 52px;
+    }
+
+    .imagem2 {
+        position: absolute;
+width: 595px;
+height: 353px;
+left: 588px;
+top: 137px;
+
+background: url("bolo-fresco-na-mesa-em-buffet.jpg");
+border-radius: 38px;
+    }
+
+    .retangulo3 {
+        position: absolute;
+width: 640px;
+height: 434px;
+left: 560px;
+top: 530px;
+
+background: #58342D;
+border-radius: 52px;
+    }
+
+    .imagem3 {
+        position: absolute;
+width: 586px;
+height: 373px;
+left: 588px;
+top: 557px;
+
+background: url("delicioso-pao-bagels-e-ovos-em-cima-da-mesa.jpg");
+border-radius: 38px;
+    }
+
+    .retangulo4 {
+        position: absolute;
+width: 571px;
+height: 925px;
+left: 1260px;
+top: 107px;
+
+background: #58342D;
+border-radius: 24px;
+    }
+
+    .paodequeijo {
+        position: absolute;
+width: 515px;
+height: 29px;
+left: 1300px;
+top: 160px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçop {
+        position: absolute;
+width: 515px;
+height: 29px;
+left: 1470px;
+top: 167px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .pao {
+        position: absolute;
+width: 545px;
+height: 34px;
+left: 1300px;
+top: 216px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçopa {
+        position: absolute;
+width: 545px;
+height: 34px;
+left: 1442px;
+top: 225px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .pizza {
+        position: absolute;
+width: 494px;
+height: 49px;
+left: 1300px;
+top: 272px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçopi {
+        position: absolute;
+width: 494px;
+height: 49px;
+left: 1361px;
+top: 280px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .misto {
+        position: absolute;
+width: 507px;
+height: 56px;
+left: 1300px;
+top: 342px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçom {
+        position: absolute;
+width: 507px;
+height: 56px;
+left: 1460px;
+top: 342px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .baguete {
+        position: absolute;
+width: 496px;
+height: 40px;
+left: 1300px;
+top: 398px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçob  {
+        position: absolute;
+        width: 496px;
+        height: 40px;
+        left: 1400px;
+        top: 403px;
+        
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+        
+        color: #FFFFFF;
+    }
+
+    .crossant {
+        position: absolute;
+width: 531px;
+height: 41px;
+left: 1300px;
+top: 448px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçoc {
+        position: absolute;
+        width: 531px;
+        height: 41px;
+        left: 1415px;
+        top: 456px;
+        
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+        
+        color: #FFFFFF;
+        
+    }
+
+    .coxinha {
+        position: absolute;
+width: 498px;
+height: 47px;
+left: 1300px;
+top: 507px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçoco {
+        position: absolute;
+width: 498px;
+height: 47px;
+left: 1396px;
+top: 512px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .pdefrio {
+        position: absolute;
+width: 530px;
+height: 50px;
+left: 1300px;
+top: 570px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçope {
+        position: absolute;
+width: 530px;
+height: 50px;
+left: 1444px;
+top: 576px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .kibe {
+        position: absolute;
+width: 494px;
+height: 50px;
+left: 1300px;
+top: 640px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçok {
+        position: absolute;
+width: 494px;
+height: 50px;
+left: 1354px;
+top: 646px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .pdeleite {
+        position: absolute;
+width: 562px;
+height: 36px;
+left: 1300px;
+top: 703px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçol {
+        position: absolute;
+width: 562px;
+height: 36px;
+left: 1440px;
+top: 712px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .xburg {
+        position: absolute;
+width: 534px;
+height: 49px;
+left: 1300px;
+top: 769px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .preçox {
+        position: absolute;
+width: 534px;
+height: 49px;
+left: 1480px;
+top: 775px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .torta {
+        position: absolute;
+width: 559px;
+height: 40px;
+left: 1300px;
+top: 834px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçot {
+        position: absolute;
+width: 559px;
+height: 40px;
+left: 1490px;
+top: 842px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .pastel {
+        position: absolute;
+width: 492px;
+height: 39px;
+left: 1300px;
+top: 892px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçotel {
+        position: absolute;
+width: 492px;
+height: 39px;
+left: 1370px;
+top: 900px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+    }
+
+    .empada {
+        position: absolute;
+width: 517px;
+height: 34px;
+left: 1300px;
+top: 953px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+
+    .preçoe {
+        position: absolute;
+width: 517px;
+height: 34px;
+left: 1522px;
+top: 957px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+
+color: #FFFFFF;
+
+    }
+    
